@@ -1,0 +1,49 @@
+
+The simulation starts with 3 mice and 8 owls.
+The environment consist of 10 × 10 fields organized as a checkerboard.
+The simulation runs on 10 ticks, and after each 5 tick, all surviving mice will multiply.
+The starting position for the mice are: [(8, 0); (2, 2); (1, 3)]
+The starting position for the owls are: [(5, 1); (4, 5); (4, 8); (0, 0); (0, 7); (5, 9); (2, 4); (1, 1)]
+
+
+Tick: 1 --------------------------------------------------
+
+The mice have finished their turn, and are currently at: [(9, 0); (1, 2); (2, 3)]
+The owls have finished their turn, and are currently at: [(6, 1); (4, 4); (4, 7); (1, 0); (1, 7); (5, 8); (2, 3); (1, 2)]
+Owl number 6 has eaten a mouse at field: (2, 3)
+Remaining mice: [(9, 0); (1, 2)]
+
+Owl number 7 has eaten a mouse at field: (1, 2)
+Remaining mice: [(9, 0)]
+
+
+Tick: 2 --------------------------------------------------
+
+The mice have finished their turn, and are currently at: [(10, 0)]
+The owls have finished their turn, and are currently at: [(7, 1); (5, 4); (5, 7); (2, 0); (2, 7); (6, 8); (3, 3); (2, 2)]
+
+Tick: 3 --------------------------------------------------
+
+The mice have finished their turn, and are currently at: [(9, 0)]
+The owls have finished their turn, and are currently at: [(8, 1); (6, 4); (6, 7); (3, 0); (3, 7); (7, 8); (4, 3); (3, 2)]
+
+Tick: 4 --------------------------------------------------
+
+The mice have finished their turn, and are currently at: [(8, 0)]
+The owls have finished their turn, and are currently at: [(8, 0); (7, 4); (7, 7); (4, 0); (4, 7); (8, 8); (5, 3); (4, 2)]
+Owl number 0 has eaten a mouse at field: (8, 0)
+Remaining mice: []
+
+Ending simulation, all mice gone.
+Ending simulation, all mice gone.
+Ending simulation, all mice gone.
+Ending simulation, all mice gone.
+Ending simulation, all mice gone.
+Ending simulation, all mice gone.
+Ending simulation, all mice gone.
+Ending simulation, no mice left.
+Ending simulation, no mice left.
+Ending simulation, no mice left.
+Ending simulation, no mice left.
+Ending simulation, no mice left.
+Ending simulation, no mice left.

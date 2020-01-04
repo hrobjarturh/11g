@@ -1,0 +1,307 @@
+
+The simulation starts with 4 mice and 3 owls.
+The environment consist of 10 × 10 fields organized as a checkerboard.
+The simulation runs on 10 ticks, and after each 2 tick, all surviving mice will multiply.
+The starting position for the mice are: [(8, 8); (4, 1); (4, 7); (1, 1)]
+The starting position for the owls are: [(0, 7); (5, 9); (5, 6)]
+
+
+Tick: 1 --------------------------------------------------
+
+The mice have finished their turn, and are currently at: [(9, 8); (4, 0); (3, 7); (2, 1)]
+The owls have finished their turn, and are currently at: [(1, 7); (5, 8); (4, 6)]
+
+Tick: 2 --------------------------------------------------
+
+Mouse number: 0 has multiplied, and is currently at: (9, 8)
+Mouse number: 1 has multiplied, and is currently at: (4, 0)
+Mouse number: 2 has multiplied, and is currently at: (3, 7)
+Mouse number: 3 has multiplied, and is currently at: (2, 1)
+The mice have finished their turn, and are currently at: [(9, 8); (4, 0); (3, 7); (2, 1); (9, 9); (4, 0); (2, 7); (3, 1)]
+The owls have finished their turn, and are currently at: [(2, 7); (5, 7); (3, 6)]
+Owl number 0 has eaten a mouse at field: (2, 7)
+Remaining mice: [(9, 8); (4, 0); (3, 7); (2, 1); (9, 9); (4, 0); (3, 1)]
+
+
+Tick: 3 --------------------------------------------------
+
+The mice have finished their turn, and are currently at: [(8, 8); (4, 0); (3, 8); (1, 1); (8, 9); (5, 0); (2, 1)]
+The owls have finished their turn, and are currently at: [(3, 7); (4, 7); (4, 6)]
+
+Tick: 4 --------------------------------------------------
+
+Mouse number: 0 has multiplied, and is currently at: (8, 8)
+Mouse number: 1 has multiplied, and is currently at: (4, 0)
+Mouse number: 2 has multiplied, and is currently at: (3, 8)
+Mouse number: 3 has multiplied, and is currently at: (1, 1)
+Mouse number: 4 has multiplied, and is currently at: (8, 9)
+Mouse number: 5 has multiplied, and is currently at: (5, 0)
+Mouse number: 7 has multiplied, and is currently at: (2, 1)
+The mice have finished their turn, and are currently at: [(8, 8); (4, 0); (3, 8); (1, 1); (8, 9); (5, 0); (2, 1); (9, 8); (4, 0); (2, 8);
+ (1, 0); (8, 10); (5, 1); (3, 1)]
+The owls have finished their turn, and are currently at: [(3, 8); (3, 7); (3, 6)]
+Owl number 0 has eaten a mouse at field: (3, 8)
+Remaining mice: [(8, 8); (4, 0); (1, 1); (8, 9); (5, 0); (2, 1); (9, 8); (4, 0); (2, 8); (1, 0);
+ (8, 10); (5, 1); (3, 1)]
+
+
+Tick: 5 --------------------------------------------------
+
+The mice have finished their turn, and are currently at: [(7, 8); (4, 0); (0, 1); (9, 9); (5, 0); (1, 1); (10, 8); (3, 0); (1, 8); (1, 0);
+ (9, 10); (4, 1); (3, 2)]
+The owls have finished their turn, and are currently at: [(2, 8); (2, 7); (3, 5)]
+
+Tick: 6 --------------------------------------------------
+
+Mouse number: 0 has multiplied, and is currently at: (7, 8)
+Mouse number: 1 has multiplied, and is currently at: (4, 0)
+Mouse number: 3 has multiplied, and is currently at: (0, 1)
+Mouse number: 4 has multiplied, and is currently at: (9, 9)
+Mouse number: 5 has multiplied, and is currently at: (5, 0)
+Mouse number: 7 has multiplied, and is currently at: (1, 1)
+Mouse number: 8 has multiplied, and is currently at: (10, 8)
+Mouse number: 9 has multiplied, and is currently at: (3, 0)
+Mouse number: 10 has multiplied, and is currently at: (1, 8)
+Mouse number: 11 has multiplied, and is currently at: (1, 0)
+Mouse number: 12 has multiplied, and is currently at: (9, 10)
+Mouse number: 13 has multiplied, and is currently at: (4, 1)
+Mouse number: 14 has multiplied, and is currently at: (3, 2)
+The mice have finished their turn, and are currently at: [(7, 8); (4, 0); (0, 1); (9, 9); (5, 0); (1, 1); (10, 8); (3, 0); (1, 8); (1, 0);
+ (9, 10); (4, 1); (3, 2); (6, 8); (4, 0); (0, 2); (8, 9); (6, 0); (1, 2);
+ (10, 9); (2, 0); (1, 7); (0, 0); (9, 10); (3, 1); (4, 2)]
+The owls have finished their turn, and are currently at: [(1, 8); (1, 7); (3, 4)]
+Owl number 0 has eaten a mouse at field: (1, 8)
+Remaining mice: [(7, 8); (4, 0); (0, 1); (9, 9); (5, 0); (1, 1); (10, 8); (3, 0); (1, 0);
+ (9, 10); (4, 1); (3, 2); (6, 8); (4, 0); (0, 2); (8, 9); (6, 0); (1, 2);
+ (10, 9); (2, 0); (1, 7); (0, 0); (9, 10); (3, 1); (4, 2)]
+
+Owl number 1 has eaten a mouse at field: (1, 7)
+Remaining mice: [(7, 8); (4, 0); (0, 1); (9, 9); (5, 0); (1, 1); (10, 8); (3, 0); (1, 0);
+ (9, 10); (4, 1); (3, 2); (6, 8); (4, 0); (0, 2); (8, 9); (6, 0); (1, 2);
+ (10, 9); (2, 0); (0, 0); (9, 10); (3, 1); (4, 2)]
+
+
+Tick: 7 --------------------------------------------------
+
+The mice have finished their turn, and are currently at: [(7, 9); (4, 0); (0, 1); (9, 8); (5, 0); (2, 1); (10, 8); (3, 0); (1, 1); (9, 9);
+ (5, 1); (3, 3); (5, 8); (4, 0); (0, 2); (8, 8); (6, 1); (2, 2); (10, 9); (1, 0);
+ (0, 0); (9, 10); (4, 1); (3, 2)]
+The owls have finished their turn, and are currently at: [(2, 8); (2, 7); (3, 3)]
+Owl number 2 has eaten a mouse at field: (3, 3)
+Remaining mice: [(7, 9); (4, 0); (0, 1); (9, 8); (5, 0); (2, 1); (10, 8); (3, 0); (1, 1); (9, 9);
+ (5, 1); (5, 8); (4, 0); (0, 2); (8, 8); (6, 1); (2, 2); (10, 9); (1, 0); (0, 0);
+ (9, 10); (4, 1); (3, 2)]
+
+
+Tick: 8 --------------------------------------------------
+
+Mouse number: 0 has multiplied, and is currently at: (7, 9)
+Mouse number: 1 has multiplied, and is currently at: (4, 0)
+Mouse number: 3 has multiplied, and is currently at: (0, 1)
+Mouse number: 4 has multiplied, and is currently at: (9, 8)
+Mouse number: 5 has multiplied, and is currently at: (5, 0)
+Mouse number: 7 has multiplied, and is currently at: (2, 1)
+Mouse number: 8 has multiplied, and is currently at: (10, 8)
+Mouse number: 9 has multiplied, and is currently at: (3, 0)
+Mouse number: 11 has multiplied, and is currently at: (1, 1)
+Mouse number: 12 has multiplied, and is currently at: (9, 9)
+Mouse number: 13 has multiplied, and is currently at: (5, 1)
+Mouse number: 15 has multiplied, and is currently at: (5, 8)
+Mouse number: 16 has multiplied, and is currently at: (4, 0)
+Mouse number: 17 has multiplied, and is currently at: (0, 2)
+Mouse number: 18 has multiplied, and is currently at: (8, 8)
+Mouse number: 19 has multiplied, and is currently at: (6, 1)
+Mouse number: 20 has multiplied, and is currently at: (2, 2)
+Mouse number: 21 has multiplied, and is currently at: (10, 9)
+Mouse number: 22 has multiplied, and is currently at: (1, 0)
+Mouse number: 24 has multiplied, and is currently at: (0, 0)
+Mouse number: 25 has multiplied, and is currently at: (9, 10)
+Mouse number: 26 has multiplied, and is currently at: (4, 1)
+Mouse number: 27 did not move or multiply, since it has no space to multiply.
+The mice have finished their turn, and are currently at: [(7, 9); (4, 0); (0, 1); (9, 8); (5, 0); (2, 1); (10, 8); (3, 0); (1, 1); (9, 9);
+ (5, 1); (5, 8); (4, 0); (0, 2); (8, 8); (6, 1); (2, 2); (10, 9); (1, 0); (0, 0);
+ (9, 10); (4, 1); (3, 2); (6, 9); (4, 0); (0, 1); (9, 7); (5, 0); (3, 1);
+ (10, 8); (2, 0); (1, 2); (8, 9); (5, 2); (4, 8); (4, 0); (0, 3); (8, 7); (6, 0);
+ (2, 3); (10, 10); (1, 0); (0, 0); (8, 10); (4, 2)]
+The owls have finished their turn, and are currently at: [(3, 8); (3, 7); (3, 2)]
+Owl number 2 has eaten a mouse at field: (3, 2)
+Remaining mice: [(7, 9); (4, 0); (0, 1); (9, 8); (5, 0); (2, 1); (10, 8); (3, 0); (1, 1); (9, 9);
+ (5, 1); (5, 8); (4, 0); (0, 2); (8, 8); (6, 1); (2, 2); (10, 9); (1, 0); (0, 0);
+ (9, 10); (4, 1); (6, 9); (4, 0); (0, 1); (9, 7); (5, 0); (3, 1); (10, 8);
+ (2, 0); (1, 2); (8, 9); (5, 2); (4, 8); (4, 0); (0, 3); (8, 7); (6, 0); (2, 3);
+ (10, 10); (1, 0); (0, 0); (8, 10); (4, 2)]
+
+
+Tick: 9 --------------------------------------------------
+
+The mice have finished their turn, and are currently at: [(7, 10); (4, 0); (0, 1); (9, 8); (5, 0); (2, 1); (10, 8); (3, 0); (1, 1);
+ (9, 9); (5, 1); (6, 8); (4, 0); (0, 2); (7, 8); (7, 1); (2, 2); (10, 9); (1, 0);
+ (0, 0); (9, 10); (4, 1); (7, 9); (4, 0); (0, 1); (10, 7); (5, 0); (3, 1);
+ (10, 8); (2, 0); (1, 3); (8, 8); (6, 2); (4, 9); (4, 0); (0, 3); (8, 6); (6, 1);
+ (3, 3); (10, 10); (1, 0); (0, 0); (8, 10); (5, 2)]
+The owls have finished their turn, and are currently at: [(4, 8); (4, 7); (3, 1)]
+Owl number 2 has eaten a mouse at field: (3, 1)
+Remaining mice: [(7, 10); (4, 0); (0, 1); (9, 8); (5, 0); (2, 1); (10, 8); (3, 0); (1, 1);
+ (9, 9); (5, 1); (6, 8); (4, 0); (0, 2); (7, 8); (7, 1); (2, 2); (10, 9); (1, 0);
+ (0, 0); (9, 10); (4, 1); (7, 9); (4, 0); (0, 1); (10, 7); (5, 0); (10, 8);
+ (2, 0); (1, 3); (8, 8); (6, 2); (4, 9); (4, 0); (0, 3); (8, 6); (6, 1); (3, 3);
+ (10, 10); (1, 0); (0, 0); (8, 10); (5, 2)]
+
+
+Tick: 10 --------------------------------------------------
+
+Mouse number: 0 has multiplied, and is currently at: (7, 10)
+Mouse number: 1 has multiplied, and is currently at: (4, 0)
+Mouse number: 3 has multiplied, and is currently at: (0, 1)
+Mouse number: 4 has multiplied, and is currently at: (9, 8)
+Mouse number: 5 has multiplied, and is currently at: (5, 0)
+Mouse number: 7 did not move or multiply, since it has no space to multiply.
+Mouse number: 8 has multiplied, and is currently at: (10, 8)
+Mouse number: 9 has multiplied, and is currently at: (3, 0)
+Mouse number: 11 has multiplied, and is currently at: (1, 1)
+Mouse number: 12 has multiplied, and is currently at: (9, 9)
+Mouse number: 13 did not move or multiply, since it has no space to multiply.
+Mouse number: 15 has multiplied, and is currently at: (6, 8)
+Mouse number: 16 has multiplied, and is currently at: (4, 0)
+Mouse number: 17 has multiplied, and is currently at: (0, 2)
+Mouse number: 18 has multiplied, and is currently at: (7, 8)
+Mouse number: 19 has multiplied, and is currently at: (7, 1)
+Mouse number: 20 has multiplied, and is currently at: (2, 2)
+Mouse number: 21 has multiplied, and is currently at: (10, 9)
+Mouse number: 22 has multiplied, and is currently at: (1, 0)
+Mouse number: 24 has multiplied, and is currently at: (0, 0)
+Mouse number: 25 has multiplied, and is currently at: (9, 10)
+Mouse number: 26 has multiplied, and is currently at: (4, 1)
+Mouse number: 28 did not move or multiply, since it has no space to multiply.
+Mouse number: 29 has multiplied, and is currently at: (4, 0)
+Mouse number: 30 has multiplied, and is currently at: (0, 1)
+Mouse number: 31 has multiplied, and is currently at: (10, 7)
+Mouse number: 32 has multiplied, and is currently at: (5, 0)
+Mouse number: 34 has multiplied, and is currently at: (10, 8)
+Mouse number: 35 has multiplied, and is currently at: (2, 0)
+Mouse number: 36 has multiplied, and is currently at: (1, 3)
+Mouse number: 37 has multiplied, and is currently at: (8, 8)
+Mouse number: 38 has multiplied, and is currently at: (6, 2)
+Mouse number: 39 has multiplied, and is currently at: (4, 9)
+Mouse number: 40 has multiplied, and is currently at: (4, 0)
+Mouse number: 41 has multiplied, and is currently at: (0, 3)
+Mouse number: 42 has multiplied, and is currently at: (8, 6)
+Mouse number: 43 did not move or multiply, since it has no space to multiply.
+Mouse number: 44 has multiplied, and is currently at: (3, 3)
+Mouse number: 45 has multiplied, and is currently at: (10, 10)
+Mouse number: 46 has multiplied, and is currently at: (1, 0)
+Mouse number: 47 has multiplied, and is currently at: (0, 0)
+Mouse number: 48 has multiplied, and is currently at: (8, 10)
+Mouse number: 49 has multiplied, and is currently at: (5, 2)
+The mice have finished their turn, and are currently at: [(7, 10); (4, 0); (0, 1); (9, 8); (5, 0); (2, 1); (10, 8); (3, 0); (1, 1);
+ (9, 9); (5, 1); (6, 8); (4, 0); (0, 2); (7, 8); (7, 1); (2, 2); (10, 9); (1, 0);
+ (0, 0); (9, 10); (4, 1); (7, 9); (4, 0); (0, 1); (10, 7); (5, 0); (10, 8);
+ (2, 0); (1, 3); (8, 8); (6, 2); (4, 9); (4, 0); (0, 3); (8, 6); (6, 1); (3, 3);
+ (10, 10); (1, 0); (0, 0); (8, 10); (5, 2); (6, 10); (4, 0); (0, 1); (9, 7);
+ (6, 0); (10, 8); (3, 0); (1, 2); (8, 9); (6, 9); (4, 0); (0, 2); (7, 7); (7, 0);
+ (3, 2); (10, 9); (1, 0); (0, 0); (9, 10); (4, 2); (4, 0); (0, 1); (10, 6);
+ (5, 0); (10, 8); (2, 0); (2, 3); (8, 7); (6, 3); (4, 10); (4, 0); (0, 3);
+ (8, 5); (4, 3); (10, 10); (1, 0); (0, 0); (8, 10); (5, 3)]
+The owls have finished their turn, and are currently at: [(4, 9); (4, 8); (4, 1)]
+Owl number 0 has eaten a mouse at field: (4, 9)
+Remaining mice: [(7, 10); (4, 0); (0, 1); (9, 8); (5, 0); (2, 1); (10, 8); (3, 0); (1, 1);
+ (9, 9); (5, 1); (6, 8); (4, 0); (0, 2); (7, 8); (7, 1); (2, 2); (10, 9); (1, 0);
+ (0, 0); (9, 10); (4, 1); (7, 9); (4, 0); (0, 1); (10, 7); (5, 0); (10, 8);
+ (2, 0); (1, 3); (8, 8); (6, 2); (4, 0); (0, 3); (8, 6); (6, 1); (3, 3);
+ (10, 10); (1, 0); (0, 0); (8, 10); (5, 2); (6, 10); (4, 0); (0, 1); (9, 7);
+ (6, 0); (10, 8); (3, 0); (1, 2); (8, 9); (6, 9); (4, 0); (0, 2); (7, 7); (7, 0);
+ (3, 2); (10, 9); (1, 0); (0, 0); (9, 10); (4, 2); (4, 0); (0, 1); (10, 6);
+ (5, 0); (10, 8); (2, 0); (2, 3); (8, 7); (6, 3); (4, 10); (4, 0); (0, 3);
+ (8, 5); (4, 3); (10, 10); (1, 0); (0, 0); (8, 10); (5, 3)]
+
+Owl number 2 has eaten a mouse at field: (4, 1)
+Remaining mice: [(7, 10); (4, 0); (0, 1); (9, 8); (5, 0); (2, 1); (10, 8); (3, 0); (1, 1);
+ (9, 9); (5, 1); (6, 8); (4, 0); (0, 2); (7, 8); (7, 1); (2, 2); (10, 9); (1, 0);
+ (0, 0); (9, 10); (7, 9); (4, 0); (0, 1); (10, 7); (5, 0); (10, 8); (2, 0);
+ (1, 3); (8, 8); (6, 2); (4, 0); (0, 3); (8, 6); (6, 1); (3, 3); (10, 10);
+ (1, 0); (0, 0); (8, 10); (5, 2); (6, 10); (4, 0); (0, 1); (9, 7); (6, 0);
+ (10, 8); (3, 0); (1, 2); (8, 9); (6, 9); (4, 0); (0, 2); (7, 7); (7, 0); (3, 2);
+ (10, 9); (1, 0); (0, 0); (9, 10); (4, 2); (4, 0); (0, 1); (10, 6); (5, 0);
+ (10, 8); (2, 0); (2, 3); (8, 7); (6, 3); (4, 10); (4, 0); (0, 3); (8, 5);
+ (4, 3); (10, 10); (1, 0); (0, 0); (8, 10); (5, 3)]
+
+Surviving mouses positions: (7, 10)
+Surviving mouses positions: (4, 0)
+Surviving mouses positions: (0, 1)
+Surviving mouses positions: (9, 8)
+Surviving mouses positions: (5, 0)
+Surviving mouses positions: (2, 1)
+Surviving mouses positions: (10, 8)
+Surviving mouses positions: (3, 0)
+Surviving mouses positions: (1, 1)
+Surviving mouses positions: (9, 9)
+Surviving mouses positions: (5, 1)
+Surviving mouses positions: (6, 8)
+Surviving mouses positions: (4, 0)
+Surviving mouses positions: (0, 2)
+Surviving mouses positions: (7, 8)
+Surviving mouses positions: (7, 1)
+Surviving mouses positions: (2, 2)
+Surviving mouses positions: (10, 9)
+Surviving mouses positions: (1, 0)
+Surviving mouses positions: (0, 0)
+Surviving mouses positions: (9, 10)
+Surviving mouses positions: (7, 9)
+Surviving mouses positions: (4, 0)
+Surviving mouses positions: (0, 1)
+Surviving mouses positions: (10, 7)
+Surviving mouses positions: (5, 0)
+Surviving mouses positions: (10, 8)
+Surviving mouses positions: (2, 0)
+Surviving mouses positions: (1, 3)
+Surviving mouses positions: (8, 8)
+Surviving mouses positions: (6, 2)
+Surviving mouses positions: (4, 0)
+Surviving mouses positions: (0, 3)
+Surviving mouses positions: (8, 6)
+Surviving mouses positions: (6, 1)
+Surviving mouses positions: (3, 3)
+Surviving mouses positions: (10, 10)
+Surviving mouses positions: (1, 0)
+Surviving mouses positions: (0, 0)
+Surviving mouses positions: (8, 10)
+Surviving mouses positions: (5, 2)
+Surviving mouses positions: (6, 10)
+Surviving mouses positions: (4, 0)
+Surviving mouses positions: (0, 1)
+Surviving mouses positions: (9, 7)
+Surviving mouses positions: (6, 0)
+Surviving mouses positions: (10, 8)
+Surviving mouses positions: (3, 0)
+Surviving mouses positions: (1, 2)
+Surviving mouses positions: (8, 9)
+Surviving mouses positions: (6, 9)
+Surviving mouses positions: (4, 0)
+Surviving mouses positions: (0, 2)
+Surviving mouses positions: (7, 7)
+Surviving mouses positions: (7, 0)
+Surviving mouses positions: (3, 2)
+Surviving mouses positions: (10, 9)
+Surviving mouses positions: (1, 0)
+Surviving mouses positions: (0, 0)
+Surviving mouses positions: (9, 10)
+Surviving mouses positions: (4, 2)
+Surviving mouses positions: (4, 0)
+Surviving mouses positions: (0, 1)
+Surviving mouses positions: (10, 6)
+Surviving mouses positions: (5, 0)
+Surviving mouses positions: (10, 8)
+Surviving mouses positions: (2, 0)
+Surviving mouses positions: (2, 3)
+Surviving mouses positions: (8, 7)
+Surviving mouses positions: (6, 3)
+Surviving mouses positions: (4, 10)
+Surviving mouses positions: (4, 0)
+Surviving mouses positions: (0, 3)
+Surviving mouses positions: (8, 5)
+Surviving mouses positions: (4, 3)
+Surviving mouses positions: (10, 10)
+Surviving mouses positions: (1, 0)
+Surviving mouses positions: (0, 0)
+Surviving mouses positions: (8, 10)
+Surviving mouses positions: (5, 3)
